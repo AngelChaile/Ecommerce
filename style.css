@@ -19,13 +19,16 @@
   --verdeAzulado: #088178;
   --verdeClaro: #cce7d0;
   --verdeMasClaro: #e8f6ea;
-  --negroOscuro: #1a1a1a;
-  --grisMedio: #606063;
+  --negroMenosOscuro: #1a1a1a;
+  --grisOscuro: #606063;
+  --grisMedio: #818ea0;
   --grisClaro: #e3e6f3;
   --rojoSuave: #ef3636;
   --roMasSuave: #ec544e;
   --blanco: #fff;
   --negro: #000;
+  --azulOscuro: #041e42;
+  --amarilloMedio: #ffbd27;
 }
 
 h1 {
@@ -119,7 +122,7 @@ body {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  color: var(--negroOscuro);
+  color: var(--negroMenosOscuro);
   transition: 0.3.s ease;
 }
 
@@ -277,12 +280,12 @@ body {
 }
 
 #product1 .pro .des span {
-  color: var(--grisMedio);
+  color: var(--grisOscuro);
   font-size: 12px;
 }
 #product1 .pro .des h5 {
   padding: 7px;
-  color: var(--negroOscuro);
+  color: var(--negroMenosOscuro);
   font-size: 14px;
 }
 
@@ -433,7 +436,57 @@ body {
 }
 
 #newsletter{
-  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("img/banner/b14.png");
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: var(--azulOscuro);
 }
+
+
+#newsletter h4{
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--blanco);
+}
+
+#newsletter p{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--grisMedio);
+}
+
+#newsletter p span{
+  color: var(--amarilloMedio);
+}
+
+#newsletter .form{
+  display: flex;
+  width: 40%;
+}
+
+#newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+  background-color: var(--verdeAzulado);
+  color: var(--blanco);
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 
 /* Shop Page */
