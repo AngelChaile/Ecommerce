@@ -394,7 +394,7 @@ body {
   border: 1px solid var(--verdeAzulado);
 }
 
-#banner3{
+#banner3 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -407,7 +407,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   background-image: url("img/banner/b7.jpg");
-  min-width: 30%; 
+  min-width: 30%;
   height: 30vh;
   background-size: cover;
   background-position: center;
@@ -415,11 +415,11 @@ body {
   margin-bottom: 20px;
 }
 
-#banner3 .banner-box2{
+#banner3 .banner-box2 {
   background-image: url("img/banner/b4.jpg");
 }
 
-#banner3 .banner-box3{
+#banner3 .banner-box3 {
   background-image: url("img/banner/b18.jpg");
 }
 
@@ -435,7 +435,7 @@ body {
   font-size: 15px;
 }
 
-#newsletter{
+#newsletter {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -446,24 +446,23 @@ body {
   background-color: var(--azulOscuro);
 }
 
-
-#newsletter h4{
+#newsletter h4 {
   font-size: 22px;
   font-weight: 700;
   color: var(--blanco);
 }
 
-#newsletter p{
+#newsletter p {
   font-size: 14px;
   font-weight: 600;
   color: var(--grisMedio);
 }
 
-#newsletter p span{
+#newsletter p span {
   color: var(--amarilloMedio);
 }
 
-#newsletter .form{
+#newsletter .form {
   display: flex;
   width: 40%;
 }
@@ -480,7 +479,7 @@ body {
   border-bottom-right-radius: 0;
 }
 
-#newsletter button{
+#newsletter button {
   background-color: var(--verdeAzulado);
   color: var(--blanco);
   white-space: nowrap;
@@ -488,5 +487,31 @@ body {
   border-bottom-left-radius: 0;
 }
 
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+
+footer .logo{
+  margin-bottom: 30px;
+}
+
+footer h4{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+footer p{
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
 
 /* Shop Page */
