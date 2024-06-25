@@ -17,6 +17,7 @@
 
 :root {
   --verdeAzulado: #088178;
+  --verdeGris: #465b52;
   --verdeClaro: #cce7d0;
   --verdeMasClaro: #e8f6ea;
   --negroMenosOscuro: #1a1a1a;
@@ -509,9 +510,41 @@ footer h4{
   font-size: 14px;
   padding-bottom: 20px;
 }
+
 footer p{
   font-size: 13px;
   margin: 0 0 8px 0;
+}
+
+footer a{
+  font-size: 13px;
+  text-decoration:none;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+footer .follow i{
+color: var(--verdeGris);
+padding-right: 4px;
+cursor: pointer;
+}
+
+footer .install .row img {
+  border: 1px solid var(--verdeAzulado);
+}
+
+footer .install img {
+  margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: var(--verdeAzulado);
+}
+
+footer .copyright{
+  width: 100%;
+  text-align: center;
 }
 
 /* Shop Page */
