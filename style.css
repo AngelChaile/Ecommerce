@@ -1,12 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "League Spartan", sans-serif;
-} */
-
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
@@ -153,10 +144,6 @@ body {
   display: none;
 }
 
-/* .logo {
-  max-width: 100%;
-  height: 115px;
-} */
 
 /* Home Page */
 #hero {
@@ -164,7 +151,7 @@ body {
   height: 90vh;
   width: 100%;
   background-size: cover;
-  background-position: top 25% right 0; /* aca el top estaba en 25% */
+  background-position: top 25% right 0;
   padding: 0 80px;
   display: flex;
   flex-direction: column;
@@ -206,7 +193,7 @@ body {
   text-align: center;
   padding: 25px 15px;
   box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
-  border: 1px solid var(--verdeClaro); /* probar el borde de grisClaro y elegir */
+  border: 1px solid var(--verdeClaro);
   border-radius: 4px;
   margin: 15px 0;
 }
@@ -256,7 +243,6 @@ body {
 }
 
 #product1 .pro-container {
-  /* background-color: #c5caca94; le agregue este color, pero no es seguro cualquier cosa sacar */
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
@@ -267,7 +253,7 @@ body {
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
-  border: 1px solid #cce7d0; /* quizas sacando el borde se ve mejor o probar el borde de grisClaro y elegir  */
+  border: 1px solid #cce7d0;
   border-radius: 25px;
   cursor: pointer;
   box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.02);
@@ -331,7 +317,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(img/banner/b2.jpg); /* si no funciona probar poner la ruta de la img con comillas */
+  background-image: url(img/banner/b2.jpg);
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -370,7 +356,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   background-image: url("img/banner/b17.jpg");
-  min-width: 815px; /* este era de 580px */
+  min-width: 815px; /* probar tambien en 580px */
   height: 50vh;
   background-size: cover;
   background-position: center;
@@ -1005,7 +991,7 @@ footer .copyright {
   }
 
   #mobile i {
-    color: var(--grisOscuro); /* Estaba en color negroMenosOscuro */
+    color: var(--grisOscuro);
     font-size: 24px;
     padding-left: 20px;
   }
